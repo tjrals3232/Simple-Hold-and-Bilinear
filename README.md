@@ -1,2 +1,9 @@
 # Simple-Hold-and-Bilinear
-Applying simple &amp; hold and bilinear to .img files.
+이 프로그램은 .img 해상도를 조정하는 데 사용됩니다. Sample and Hold 또는 Bilinear 방식으로 업스케일링과 다운스케일링을 수행하며, 특히 LPF 적용으로 이미지 품질 향상이 가능합니다.
+
+# 사용방법
+- 프로그램 실행 후, 업스케일링 방법을 선택합니다.
+- Sample and Hold를 선택한 경우, 원하는 이미지의 가로 및 세로 크기를 입력합니다.
+- Bilinear를 선택한 경우, 동일하게 이미지 크기를 입력합니다.
+- 선택한 방식에 따라 LPF를 적용하여 이미지를 업스케일링하고, MSE를 계산하여 원본 이미지와의 차이를 확인합니다.
+- 최종 결과물은 out 폴더에 저장됩니다.
